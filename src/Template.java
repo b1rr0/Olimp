@@ -12,8 +12,12 @@ import java.util.Random;
 public class Template {
 
     // javac Template.java && java Template A LeetCoodeExample.B
-
     public static void main(String[] args) throws IOException {
+        args=new String[]{"E"};
+        generation(args);
+    }
+
+    private static void generation(String[] args) throws IOException {
         String templateName = "Templ1";
         Random random = new Random();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd_MM_yyyy");
