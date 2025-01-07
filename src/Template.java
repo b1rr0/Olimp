@@ -13,7 +13,7 @@ public class Template {
 
     // javac Template.java && java Template A LeetCoodeExample.B
     public static void main(String[] args) throws IOException {
-        args=new String[]{"Main"};
+        args = new String[]{"Main"};
         generation(args);
     }
 
